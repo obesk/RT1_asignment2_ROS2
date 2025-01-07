@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'robot_control_node = ass2_ros2.robot_control:main'
         ],
     },
 )
